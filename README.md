@@ -1,19 +1,20 @@
-# Silent-Voice
-AI for mute people
+
 # SilentVoice – Let Mute People Speak
 
-**SilentVoice** is an AI-based tool that lets mute individuals speak out loud without typing or signing.
+**SilentVoice** is a tool that lets mute individuals speak out loud without typing or signing.
 
-## 🧠 How It Works
-- Simulates AI to detect the user's intent
+## How It Works
+- Simulates opencv and mediapipe to detect the user's intent
 - Converts detected text to voice using Python’s `pyttsx3` library
 
-## 🛠️ Technologies
+## Technologies
 - Python
+- opencv
+- mediapipe
 - pyttsx3
 
-## 🚀 How to Run
+## How to Run
 ```bash
 pip install -r requirements.txt
-python app.py
+python silentvoice.py
 

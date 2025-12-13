@@ -5,15 +5,9 @@
 
 ## How It Works
 - Simulates opencv and mediapipe to detect the user's intent
-- Converts detected text to voice using Python’s `pyttsx3` library
+- Converts detected text to voice using Python’s pyttsx3 library
 
-## Technologies
-- Python
+## Libraries used
 - opencv
 - mediapipe
 - pyttsx3
-
-## How to Run
-```bash
-python silentvoice.py
-
